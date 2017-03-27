@@ -1,0 +1,39 @@
+{
+  "name": "swatcher",
+  "version": "0.0.0",
+  "description": "CSS color variables",
+  "author": "Ryan Van Etten",
+  "license": "MIT",
+  "main": "swatcher.js",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "preversion": "npm test",
+    "pretest": "npm run lint",
+    "test": "node test.js"
+  },
+  "homepage": "https://github.com/ryanve/swatcher",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/swatcher.git"
+  },
+  "keywords": [
+    "color",
+    "colors",
+    "css",
+    "css-in-js",
+    "less",
+    "scss",
+    "sass",
+    "converter",
+    "css-variables",
+    "variables",
+    "javascript",
+    "module"
+  ],
+  "bugs": {
+    "url": "https://github.com/ryanve/swatcher/issues"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0"
+  }
+}
